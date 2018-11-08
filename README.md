@@ -19,4 +19,4 @@ make
 ./test.sh
 
 # Notes
-also you can send SIGHUP signal to deamon fo rereading config file  
+also you can send SIGHUP signal to deamon for rereading config file  

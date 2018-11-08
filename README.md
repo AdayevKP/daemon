@@ -8,7 +8,7 @@ Daemon monitoring changes in folder1 and, if some files was moved to folde1 or c
 # Using: 
 set full path for folder1 and folder2 in config.txt  
 build using  
-make
+make  
 use commands  
 ./deamon start   
 ./daemon stop   

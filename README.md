@@ -17,3 +17,6 @@ for starting and stopping daemon
 # Testing:
 make  
 ./test.sh
+
+# Notes
+also you can send SIGHUP signal to deamon fo rereading config file  

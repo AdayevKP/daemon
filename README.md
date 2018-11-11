@@ -1,5 +1,5 @@
 # Daemon
-Simple daemon for linux, which cheks files in folder1 and copy them to folder2.
+Simple daemon for linux, which checks files in folder1 and copy them to folder2.
 
 # Description
 Daemon's script: Daemon deletes all files in folder2 and then copy png files from folder1 to folder2/IMG and other files to folder2/OTHERS.  

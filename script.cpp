@@ -92,6 +92,10 @@ bool Script::perform()
 
     while ((entry = readdir(dir2)) != NULL)
     {
+        if (strcmp(entry->d_name,"..") == 0|| strcmp(entry->d_name, ".") == 0)
+        {
+            continue;
+        }
         strcpy(file, dirNameOut);
         strcat(file, "/");
         strcat(file, entry->d_name);
@@ -128,6 +132,10 @@ bool Script::perform()
     }
     while ((entry = readdir(dir1)) != NULL)
     {
+        if (strcmp(entry->d_name,"..") == 0|| strcmp(entry->d_name, ".") == 0)
+        {
+            continue;
+        }
         strcpy(file, dirNameIn);
         strcat(file, "/");
         strcat(file, entry->d_name);
